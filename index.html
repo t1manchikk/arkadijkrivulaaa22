@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <title>ПР 5 – Піцерія</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h1>🍕 Піцерія (ПР №5)</h1>
+
+<div id="cards" class="cards"></div>
+
+<h2>💳 Додати банківську картку</h2>
+<input type="text" id="cardNumber" placeholder="Номер картки">
+<input type="text" id="cardOwner" placeholder="Власник">
+<button id="addCard">Додати</button>
+
+<h2>Мої картки</h2>
+<div id="bankCards" class="cards"></div>
+
+<div id="authModal" class="modal hidden">
+  <div class="modal-content">
+    <h3>Авторизація</h3>
+    <input type="text" placeholder="Логін">
+    <input type="password" placeholder="Пароль">
+    <button id="login">Увійти</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
